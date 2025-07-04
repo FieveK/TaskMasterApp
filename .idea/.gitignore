@@ -1,0 +1,17 @@
+# Android/Gradle files to ignore
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+app/build/
+
+# APKs
+*.apk
+*.ap_
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
