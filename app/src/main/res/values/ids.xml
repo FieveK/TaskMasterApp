@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="detail_location" type="id" />
+    <item name="detail_deadline" type="id" />
+    <item name="detail_photo" type="id" />
+    <item name="detail_title" type="id" />
+</resources>
