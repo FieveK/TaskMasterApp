@@ -1,96 +1,57 @@
 # 📱 TaskMasterApp
 
-**TaskMasterApp** adalah aplikasi manajemen tugas harian berbasis Android. Aplikasi ini dirancang untuk membantu pengguna mencatat, mengelola, dan menyelesaikan tugas-tugas mereka dengan lebih terorganisir dan efisien.
+Aplikasi Android untuk manajemen tugas harian yang dibuat dengan 💚 Android Studio dan Jetpack Compose.
 
 ---
 
-## 📌 Fitur Utama
+## 🎯 Fitur Utama
 
-✨ Berikut adalah fitur-fitur yang telah diterapkan dalam TaskMasterApp:
-
-- 📝 **Menambahkan Tugas Baru**  
-  Tambahkan catatan tugas penting beserta tanggal deadline.
-
-- ✅ **Menandai Tugas Selesai / Belum**  
-  Satu klik untuk menyelesaikan tugas atau mengembalikannya.
-
-- ✏️ **Edit & Hapus Tugas**  
-  Edit deskripsi atau hapus tugas kapan saja.
-
-- 📅 **Filter Tugas**  
-  Tampilkan hanya tugas selesai, belum selesai, atau semua.
-
-- 📊 **Statistik Sederhana**  
-  Lihat berapa banyak tugas yang telah diselesaikan.
-
-- 🎨 **Tampilan Modern & Minimalis**  
-  Menggunakan Material Design + Jetpack Compose.
+- ✅ Tambah, edit, dan hapus tugas
+- 📅 Tandai tugas sebagai "Selesai" atau "Belum"
+- 🔍 Filter tugas berdasarkan status
+- ⏰ Pengingat tugas (Notifikasi)
+- 🧾 Tampilan daftar tugas yang rapi dan interaktif
+- 📊 Statistik tugas yang diselesaikan
 
 ---
 
-## 📸 Screenshot Aplikasi
+## 🧪 Teknologi yang Digunakan
 
-| Tampilan Beranda | Form Tambah Tugas | Statistik |
-|------------------|-------------------|-----------|
-| ![home](screenshots/home.png) | ![form](screenshots/add_task.png) | ![stats](screenshots/stats.png) |
-
-> 📂 Simpan gambar di folder `screenshots/` di dalam repositori kamu.
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-- Kotlin + Android Studio
-- Jetpack Compose
-- ViewModel & LiveData
-- Room Database
-- Material Design
+- Kotlin + Jetpack Compose
+- AndroidX ViewModel & Navigation
+- Room Database (opsional)
+- Material Design 3
+- Firebase Authentication (jika ada)
+- Notifikasi lokal
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
+## 📸 Screenshot
 
-1. **Clone Repository**
+> Masukkan folder `screenshots/` dan tambahkan di bawah ini (contoh):
 
-```bash
-git clone https://github.com/FieveK/TaskMasterApp.git
-
-Buka di Android Studio
-
-Pilih folder TaskMasterApp
-
-Tunggu proses Gradle selesai
-
-Jalankan
-
-Pilih emulator / perangkat fisik
-
-Klik ▶️ "Run"
-
-📦 Download APK (Release)
-📥 Versi APK stabil dapat diunduh di tab Releases
-
-🙌 Kontributor
-👤 Muhammad Yudi Fitriyadi
-📘 NIM: 2210131310005
-💼 Universitas Lambung Mangkurat
-📚 Praktikum Pemrograman Perangkat Bergerak – Semester 6
-
-⭐ Dukungan
-Jika kamu menyukai proyek ini, jangan lupa ⭐ Star repositori ini.
-Bantu sebarkan agar bermanfaat untuk lebih banyak orang!
-
-📄 Lisensi
-MIT License © 2025 — Muhammad Yudi Fitriyadi
-
+| Login | Beranda |
+|------|---------|
+| ![login](screenshots/login.png) | ![main](screenshots/main.png) |
 
 ---
 
-### ✅ Tips Tambahan
+## 🔗 Download APK
 
-- Upload gambar screenshot ke folder `screenshots/` di repositori kamu.
-- Tambahkan APK ke tab **Releases**.
-- Boleh tambahkan badge GitHub seperti:
-```markdown
-![GitHub repo size](https://img.shields.io/github/repo-size/FieveK/TaskMasterApp)
-![GitHub stars](https://img.shields.io/github/stars/FieveK/TaskMasterApp?style=social)
+📥 Klik [di sini untuk mengunduh APK](https://github.com/FieveK/TaskMasterApp/releases) pada bagian **Releases**.
+
+File: `app-release.apk`
+
+---
+
+## 👨‍💻 Developer
+
+> Muhammad Yudi Fitriyadi – 2210131310005  
+> Mata Kuliah: **Pemrograman Perangkat Bergerak**  
+> Semester 6, Pendidikan Komputer – FKIP ULM
+
+---
+
+## 💡 Catatan
+
+- Jika APK gagal diinstal: aktifkan opsi **"Install from Unknown Sources"** di pengaturan Android kamu.
