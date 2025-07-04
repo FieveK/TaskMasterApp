@@ -23,7 +23,6 @@ TaskMasterApp adalah aplikasi Android sederhana yang dirancang untuk membantu pe
 |-------|----------|---------|---------------|
 | ![Login](foto/login.png) | ![Register](foto/register.png) | ![Main](foto/main.png) | ![Add Task](foto/add_task.png) |
 
-> Letakkan gambar kamu di folder `foto/` dan pastikan sudah di-commit ke GitHub.
 
 ---
 
